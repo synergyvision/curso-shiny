@@ -1,10 +1,11 @@
-La intención del paquete `shiny` es ofrecer una opción para generar dinamismo mediante dos elementos fundamentales: la intercción y la reactividad. 
+Las aplicaciones `shiny` son páginas Web generadas desde un servidor que corre R.
 
-Para entender lo que ocurre vamos a ejecutar los comandos siguientes en la cónsola de R:
+Es decir, son páginas Web que pueden mostrar los resultados de algún estudio desarrollado en R.
 
-- **fluidPage()**
-- **fluidPage(titlePanel("Hola Synergy Vision"))**
+Lo interesante es que ahora se pueden publicar los resultados de un trabajo en R mediante páginas Web y al mismo tiempo ofrecer posiblidad de interactuar y modificar de forma dinámica el valor de algunos parámetros o variables y observar el resultado de la interacción.
 
-En este ejemplo básico vamos a crear un control **slider**
+La aplicación Web es reactiva en el sentido de que los cambios que se realizan en la interfaz Web son captados por el paquete `shiny` y se genera un nuevo resultado considerando los cambios realizados.
 
-Move the *Number of bins* slider and notice how the `renderPlot` expression is automatically re-evaluated when its dependant, `input$bins`, changes, causing a histogram with a new number of bins to be rendered.
+Para desarrollar aplicaciones `shiny` interesantes y atractivas entonces hay que aprender un poco de HTML, CSS y JavaScript que son las tecnologías subyacentes para hacer páginas Web.
+
+El mejor lugar para aprender sobre las tecnologías Web es en [w3schools](https://www.w3schools.com).
