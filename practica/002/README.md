@@ -1,1 +1,7 @@
-Normally we use the built-in functions, such as `textInput()`, to generate the HTML UI in the R script `ui.R`. Actually **shiny** also works with a custom HTML page `www/index.html`. See [the tutorial](http://shiny.rstudio.com/tutorial/) for more details.
+Como se ha visto en los ejemplos anteriores el HTML se genera mediante las diferentes funciones que proporciona el paquete `shiny`.
+
+Sin embargo es posible especificar el HTML directamente como parámetro de la interfaz en nuestra aplicación.
+
+Algunos artículos de interés:
+
+- [Aplicación de CSS](https://shiny.rstudio.com/articles/css.html)
