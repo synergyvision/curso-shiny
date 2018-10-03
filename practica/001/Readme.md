@@ -11,6 +11,6 @@ Para entender lo que ocurre vamos a ejecutar los comandos siguientes en la cóns
 - **sidebarLayout(sidebarPanel(),mainPanel())**
 - Ver la ayuda de **sliderInput** y **plotOutput**
 
-En este ejemplo básico vamos a crear un control **slider**
+En este ejemplo vamos a describir los comandos básicos y la lógica de una aplicación `shiny`.
 
-Move the *Number of bins* slider and notice how the `renderPlot` expression is automatically re-evaluated when its dependant, `input$bins`, changes, causing a histogram with a new number of bins to be rendered.
+Interactue con todos los elementos y vea los cambios que se generan. Identifique posibles cambios en el código y vea el resultado. Comparta sus descubrimientos.
